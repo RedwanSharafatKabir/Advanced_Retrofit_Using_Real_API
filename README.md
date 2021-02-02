@@ -18,13 +18,16 @@ Advanced REST API integration with Retrofit2 library in Android Application and 
 #### Retrofit 2 library dependencies -
 * implementation 'com.squareup.retrofit2:retrofit:2.9.0'
 * implementation 'com.squareup.retrofit2:converter-gson:2.9.0'<br><br>
+
 - - - -
 <br>
+
 * Built With - 
     * Android Studio
     * Java
     * XML
     * REST API
+    
 - - - -
 
 * License -

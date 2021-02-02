@@ -21,7 +21,6 @@ Advanced REST API integration with Retrofit2 library in Android Application and 
 
 - - - -
 <br>
-
 * Built With - 
     * Android Studio
     * Java

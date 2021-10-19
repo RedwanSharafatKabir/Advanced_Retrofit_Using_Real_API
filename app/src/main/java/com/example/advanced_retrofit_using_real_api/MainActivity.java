@@ -293,8 +293,8 @@ public class MainActivity extends AppCompatActivity {
         dataObjectClass = new DataObjectClass("name", "personNickname", "internetEmail",
                 "personGender", lastLoginObject);
         MainObjectClass mainObjectClass = new MainObjectClass(token_for_PostRequest, dataObjectClass);
-        Call<MainResponseObjectClass> mainResponse = retrofitClient.getPostValue(mainObjectClass);
 
+        Call<MainResponseObjectClass> mainResponse = retrofitClient.getPostValue(mainObjectClass);
         mainResponse.enqueue(new Callback<MainResponseObjectClass>() {
             @Override
             public void onResponse(Call<MainResponseObjectClass> call, Response<MainResponseObjectClass> response) {
@@ -388,6 +388,7 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("Name ", continentDataClass.getName());
                         Log.d("Updated at ", continentDataClass.getUpdated_at());
                     }
+
                 } else {
                     Log.d("Response", "Failure");
                 }
